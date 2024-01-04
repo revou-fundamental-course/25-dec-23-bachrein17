@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kalkulator Luas Segitiga</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center><h1>Kalkulator Luas Segitiga</h1></center>
+    <center><img src="image/segitiga.jpg" alt="Gambar Segitiga" id="gambarSegitiga"></center>
+    <form id="calculatorForm">
+        <div class="input-group">
+            <center><label for="alas">Alas:</label>
+            <input type="number" id="alas" form="calculatorForm"></center>
+        </div>
+        <div class="input-group">
+            <center><label for="tinggi">Tinggi:</label>
+            <input type="number" id="tinggi" form="calculatorForm"></center>
+        </div>
+        <button type="button" id="hitungButton">Hitung Luas</button>
+        <button type="reset" id="resetButton">Reset</button>
+    </form>
+    <div id="hasil" style="display: none;"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
